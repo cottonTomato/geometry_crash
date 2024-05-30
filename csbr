@@ -13,7 +13,7 @@ function cs() {
 function br() {
     cd build
     cmake --build .
-    ./main
+    ./geometry_crash
 }
 
 case "$1" in
